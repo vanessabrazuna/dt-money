@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.header`
   background: var(--blue);
@@ -19,13 +19,13 @@ export const Content = styled.div`
     color: var(--shape);
     border: 0;
     padding: 0 2rem;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     height: 3rem;
 
-    transition: filter .2s;
-    
+    transition: filter 0.2s;
+
     &:hover {
-      filter: brightness(.9);
+      filter: brightness(0.9);
     }
   }
 `
