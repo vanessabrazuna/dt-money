@@ -27,6 +27,8 @@ This project was developed with the following technologies:
 - React Modal
 - Axios
 - Miragejs
+- Lucide
+- Polished
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 
