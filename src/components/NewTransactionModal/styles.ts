@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { darken } from 'polished'
 
 export const Container = styled.form`
   h2 {
@@ -40,7 +41,7 @@ export const Container = styled.form`
     font-size: 1rem;
     font-weight: 600;
 
-    transition: filter .2s;
+    transition: filter 0.2s;
 
     &:hover {
       filter: brightness(0.9);
@@ -52,35 +53,33 @@ export const TransactionTypeContainer = styled.div`
   margin: 1rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: .5rem;
-
-  button {
-    height: 4rem;
-    border: 1px solid #d7d7d7;
-    border-radius: 0.25rem;
-
-    background: transparent;
-    color: #363F5F;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &:hover {
-      border-color: ;
-    }
-
-    img {
-      width: 20px;
-      height: 20px;
-    }
-
-    span {
-      display: inline-block;
-      margin-left: 1rem;
-      font-size: 1rem;
-      color: var(--text-title);
-    }
-  }
+  gap: 0.5rem;
 `
 
+export const RadioBox = styled.button`
+  height: 4rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.25rem;
+  background: transparent;
+  color: #363f5f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: ${darken(0.1, '#d7d7d7')}; /* escurecer cor */
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  span {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: var(--text-title);
+  }
+`
