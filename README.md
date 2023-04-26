@@ -29,6 +29,8 @@ This project was developed with the following technologies:
 - Miragejs
 - Lucide
 - Polished
+- Intl.NumberFormat
+_ Intl.DateTimeFormat
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 
