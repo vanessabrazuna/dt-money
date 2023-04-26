@@ -30,7 +30,7 @@ This project was developed with the following technologies:
 - Lucide
 - Polished
 - Intl.NumberFormat
-_ Intl.DateTimeFormat
+- Intl.DateTimeFormat
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 
