@@ -31,6 +31,8 @@ This project was developed with the following technologies:
 - Polished
 - Intl.NumberFormat
 - Intl.DateTimeFormat
+- useContext
+- Reduce
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: grid;
@@ -10,7 +10,7 @@ export const Container = styled.div`
     background: var(--shape);
     color: var(--text-title);
     padding: 1.5rem 2rem;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
 
     header {
       display: flex;
