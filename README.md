@@ -25,6 +25,7 @@ This project was developed with the following technologies:
 - Typescript
 - Styled Components
 - Phosphor-React
+- Radix Ui / React-Dialog
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 
@@ -34,7 +35,7 @@ Dt. Money is a financial control application, where it is possible to register a
 
 ## 🔖 Layout
 
-You can view the project layout through [DESSE LINK](https://www.figma.com/file/3deTjDPnd3pMFXZzlqfcbs/DT-Money-(Community)?node-id=0-1&t=NHkPCdqNU7bSPGm0-0). It is necessary to have an account[Figma](https://figma.com) to access it.
+You can view the project layout through [DESSE LINK](https://www.figma.com/file/3deTjDPnd3pMFXZzlqfcbs/DT-Money-(Community)?node-id=0-1&t=NHkPCdqNU7bSPGm0-0). It is necessary to have an account [Figma](https://figma.com) to access it.
 
 ---
 
