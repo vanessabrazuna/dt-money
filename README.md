@@ -25,7 +25,7 @@ This project was developed with the following technologies:
 - Typescript
 - Styled Components
 - Phosphor-React
-- Radix Ui / React-Dialog
+- Radix Ui -> React-Dialog | React-Radio-Group
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 
