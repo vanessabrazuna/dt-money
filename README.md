@@ -27,6 +27,10 @@ This project was developed with the following technologies:
 - Phosphor-React
 - Radix Ui -> React-Dialog | React-Radio-Group
 - JSON-Server
+- Intl.NumberFormat
+- Intl.DateTimeFormat
+- useContext
+- Reduce
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 
