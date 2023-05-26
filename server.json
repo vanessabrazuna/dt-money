@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 2110,
       "createdAt": "2023-05-13T19:23:00.963Z"
+    },
+    {
+      "description": "App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-05-26T00:41:54.529Z",
+      "id": 4
+    },
+    {
+      "description": "Café",
+      "price": 5,
+      "category": "Lanche",
+      "type": "outcome",
+      "createdAt": "2023-05-26T00:43:17.405Z",
+      "id": 5
     }
   ]
 }
