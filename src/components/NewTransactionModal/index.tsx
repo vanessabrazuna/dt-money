@@ -24,7 +24,13 @@ const newTransactionFormSchema = z.object({
 
 type NewTransactionFormInputs = z.infer<typeof newTransactionFormSchema>
 
-export function NewTransactionModal() {
+interface NewTransactionModalProps {
+  handleTransactionModalOpenChange: (data?: boolean) => Promise<void>
+}
+
+export function NewTransactionModal({
+  handleTransactionModalOpenChange
+}: NewTransactionModalProps) {
   const { createTransaction } = useContext(TransactionsContext)
 
   const {
@@ -32,7 +38,7 @@ export function NewTransactionModal() {
     register,
     handleSubmit,
     formState: { isSubmitting },
-    reset,
+    reset
   } = useForm<NewTransactionFormInputs>({
     resolver: zodResolver(newTransactionFormSchema),
     defaultValues: {
@@ -47,10 +53,11 @@ export function NewTransactionModal() {
       description,
       price,
       category,
-      type,
+      type
     })
 
     reset()
+    handleTransactionModalOpenChange(false)
   }
 
   return (
