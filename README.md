@@ -27,6 +27,7 @@ This project was developed with the following technologies:
 - Phosphor-React
 - Radix Ui
 - JSON-Server
+- Axios
 - useContext
 - Reduce
 - React Hook Form
