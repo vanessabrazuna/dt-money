@@ -29,6 +29,7 @@ This project was developed with the following technologies:
 - JSON-Server
 - Axios
 - useContext
+- useContextSelector
 - Reduce
 - React Hook Form
 - Zod
