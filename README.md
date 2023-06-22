@@ -30,6 +30,9 @@ This project was developed with the following technologies:
 - Axios
 - useContext
 - useContextSelector
+- useCallback
+- useMemo
+- memo
 - Reduce
 - React Hook Form
 - Zod
