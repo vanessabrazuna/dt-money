@@ -26,7 +26,7 @@ const newTransactionFormSchema = z.object({
 type NewTransactionFormInputs = z.infer<typeof newTransactionFormSchema>
 
 interface NewTransactionModalProps {
-  handleTransactionModalOpenChange: (data?: boolean | undefined) => Promise<void>
+  handleTransactionModalOpenChange: (data: boolean) => Promise<void>
 }
 
 export function NewTransactionModal({
