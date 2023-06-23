@@ -1,35 +1,21 @@
-import { useState } from 'react'
+import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
 import * as Dialog from '@radix-ui/react-dialog'
-import { NewTransactionModal } from '../NewTransactionModal'
 
 import logoImg from '../../assets/logo.svg'
-
-import { HeaderContainer, HeaderContent, NewTransitionButton } from './styles'
+import { NewTransactionModal } from '../NewTransactionModal'
 
 export function Header() {
-  const [isTransactionModalOpen, setIsTransactionModalOpen] =
-    useState<boolean>(false)
-
-  function handleTransactionModalOpenChange(value: boolean) {
-    setIsTransactionModalOpen(value)
-  }
-
   return (
     <HeaderContainer>
       <HeaderContent>
-        <img src={logoImg} alt="Logotipo DT Money" />
+        <img src={logoImg} alt="" />
 
-        <Dialog.Root
-          open={isTransactionModalOpen}
-          onOpenChange={handleTransactionModalOpenChange}
-        >
+        <Dialog.Root>
           <Dialog.Trigger asChild>
-            <NewTransitionButton>Nova transação</NewTransitionButton>
+            <NewTransactionButton>Nova transação</NewTransactionButton>
           </Dialog.Trigger>
 
-          <NewTransactionModal
-            handleTransactionModalOpenChange={setIsTransactionModalOpen}
-          />
+          <NewTransactionModal />
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>
