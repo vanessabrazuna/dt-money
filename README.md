@@ -1,4 +1,4 @@
-<h1 align="center"> DT Money Api</h1>
+<h1 align="center"> DT Money</h1>
 
 <p align="center">
 Application created in class, promoted by Rocketseat for teaching WEB technologies.
